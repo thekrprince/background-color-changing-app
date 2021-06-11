@@ -24,5 +24,6 @@ function changeColor() {
 
   toggle.addEventListener('click', function () {
     bg.style.backgroundColor = colorIndex;
+    toggle.style.backgroundColor = colorIndex;
   });
 }
